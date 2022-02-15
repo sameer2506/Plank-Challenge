@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_nav_graph.xml">
+
+    <fragment
+        android:id="@+id/first_fragment"
+        android:name="com.plank.challenge.ui.fragment.FirstFragment"
+        android:label="First Fragment"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_first_to_user_interest_fragment"
+            app:destination="@id/user_interest_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/user_interest_fragment"
+        android:name="com.plank.challenge.ui.fragment.UserInterestFragment"
+        android:label="User Interest"
+        tools:layout="@layout/fragment_user_interest">
+
+        <action
+            android:id="@+id/action_user_interest_to_plank_details"
+            app:destination="@id/plank_details_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/plank_details_fragment"
+        android:name="com.plank.challenge.ui.fragment.PlankDetailsFragment"
+        android:label="Plank details"
+        tools:layout="@layout/fragment_plank_details" />
+
+</navigation>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Plank Challenge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="strengthen_your_core_text">Plank workout fires up all your core muscle groups, enhances your core strength, and helps you get a strong core.</string>
+    <string name="women">Woman</string>
+    <string name="man">Man</string>
+
+</resources>
